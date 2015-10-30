@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item android:orderInCategory="100"
+          android:showAsAction="never"
+          android:id="@+id/refresh"
+          android:title="refresh"/>
+
+    <item android:orderInCategory="100"
+          android:showAsAction="never"
+          android:id="@+id/sort_name"
+          android:title="Sort in name"/>
+
+    <item android:orderInCategory="100"
+          android:showAsAction="never"
+          android:id="@+id/sort_time"
+          android:title="Sort in time"/>
+
+    <item android:orderInCategory="100"
+          android:showAsAction="never"
+          android:id="@+id/sort_size"
+          android:title="Sort in size"/>
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/title_search_normal"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"/>
+
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          android:showAsAction="never"/>
+</menu>
